@@ -1,8 +1,8 @@
 CHANGELOG
+Gemfile
 LICENSE
 Manifest
 README.md
 Rakefile
-heka.gemspec
 lib/heka.rb
 test/helper.rb
