@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.date = "2013-04-30"
   s.description = "Ruby client for the Heka application logging and metrics gathering system"
   s.email = "rubygems-heka@sgerrand.com"
-  s.extra_rdoc_files = ["CHANGELOG", "README.md", "lib/heka.rb"]
-  s.files = ["CHANGELOG", "Manifest", "README.md", "Rakefile", "heka.gemspec", "lib/heka.rb", "test/helper.rb"]
-  s.homepage = "https;//github.com/sgerrand/heka-rb-gem"
+  s.extra_rdoc_files = ["CHANGELOG", "LICENSE", "README.md", "lib/heka.rb"]
+  s.files = ["CHANGELOG", "LICENSE", "Manifest", "README.md", "Rakefile", "heka.gemspec", "lib/heka.rb", "test/helper.rb"]
+  s.homepage = "https://github.com/sgerrand/heka-rb-gem"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Heka", "--main", "README.md"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "heka"
