@@ -1,2 +1,5 @@
 # Ignore built gems
 /pkg
+
+# Ignore gemspec
+*.gemspec
