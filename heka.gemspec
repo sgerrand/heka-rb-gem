@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sasha Gerrand"]
-  s.date = "2013-04-30"
+  s.date = "2013-05-01"
   s.description = "Ruby client for the Heka application logging and metrics gathering system"
   s.email = "rubygems-heka@sgerrand.com"
   s.extra_rdoc_files = ["CHANGELOG", "LICENSE", "README.md", "lib/heka.rb"]
@@ -22,13 +22,16 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+      s.add_development_dependency(%q<coveralls>, [">= 0"])
       s.add_development_dependency(%q<rake>, [">= 0"])
       s.add_development_dependency(%q<minitest>, [">= 0"])
     else
+      s.add_dependency(%q<coveralls>, [">= 0"])
       s.add_dependency(%q<rake>, [">= 0"])
       s.add_dependency(%q<minitest>, [">= 0"])
     end
   else
+    s.add_dependency(%q<coveralls>, [">= 0"])
     s.add_dependency(%q<rake>, [">= 0"])
     s.add_dependency(%q<minitest>, [">= 0"])
   end
